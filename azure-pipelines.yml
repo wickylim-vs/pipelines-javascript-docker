@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-1604' # set to windows-latest or another Windows vmImage for Windows builds
+  vmImage: 'Ubuntu-16.04'
 
 variables:
   imageName: 'pipelines-javascript-docker'
